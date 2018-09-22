@@ -1,0 +1,27 @@
+ul.checkmark li:before
+{
+    content:'\2713';
+    display:inline-block;
+    color:red;
+    padding:0 6px 0 0;
+  }
+ul.checkmark li
+{
+    list-style-type:none;
+    font-size:1em;
+}
+ul.no_bullet {
+  list-style: none;
+  padding-left: 1em;
+}
+ul.no_bullet li {
+  background: url(../.././images/like.svg) no-repeat left top;
+  padding-left: 44px;
+  padding-top: 3px;
+}
+.transparent-text {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.60;
+  filter: alpha(opacity=60);
+  color: #ffffff;
+}
